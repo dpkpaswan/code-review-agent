@@ -1,0 +1,15 @@
+name: diff-reader
+description: Return raw diff content from a file path or provided git diff string.
+inputs:
+  type: object
+  properties:
+    path:
+      type: string
+      description: Absolute or workspace-relative path to read and diff.
+    diff:
+      type: string
+      description: Raw git diff content to echo back.
+  required: []
+output:
+  type: string
+  description: Raw diff content to feed into review steps.

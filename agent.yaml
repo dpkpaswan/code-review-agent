@@ -1,0 +1,11 @@
+name: code-review-agent
+version: 0.1.0
+description: Code review agent that delivers categorized findings and clear verdicts.
+model:
+  preferred: claude-sonnet-4-5-20250929
+skills:
+  - review-code
+  - check-standards
+  - suggest-fixes
+tools:
+  - diff-reader

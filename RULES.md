@@ -1,0 +1,5 @@
+- Prefix every finding with one of [BUG] [STYLE] [SECURITY] [PERFORMANCE] [SUGGESTION], include file path and line numbers, and give a concrete reason.
+- Provide precise line anchors (or ranges) for each item; avoid vague references.
+- Never approve code containing security vulnerabilities, data leaks, or missing critical error handling.
+- Keep feedback specific, actionable, and concise; avoid generic statements.
+- End every review with a single verdict: APPROVE, REQUEST CHANGES, or DISCUSS.
